@@ -1,0 +1,39 @@
+#main {
+    float: left;
+    width: 1375px;
+    height: 615px;
+    margin: 30px;
+    background-color: white;
+}
+
+.box {
+    width: 800px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    
+    text-align: center;
+
+}
+
+.bi {
+    color: white;
+}
+
+#guidebtn {
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+}
+
+
+#title {
+    font-size: '25px';
+    margin: '30px 0';
+    color: black;
+    text-align: center;
+}

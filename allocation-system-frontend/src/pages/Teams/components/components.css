@@ -1,0 +1,32 @@
+#sub_nav {
+    float: left;
+    width: 180px;
+    height: 690px;
+    background-color: rgb(230, 230, 230);
+}
+
+#sub_nav ul {
+    padding: 0;
+    margin-top: 50px;
+}
+
+#sub_nav li {
+    padding:  0px;
+    
+}
+
+#sub_nav li a {
+    display: block;
+    color: rgb(32, 56, 100);
+    font-size: 18px;
+    padding: 20px 30px;
+}
+
+#sub_nav li a:hover:not(.active) {
+    color: rgb(75, 104, 153);
+}
+
+#sub_nav .active{
+    background-color: rgb(32, 56, 100);
+    color: white;
+}
